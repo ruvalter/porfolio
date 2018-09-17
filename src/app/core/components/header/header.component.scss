@@ -1,0 +1,37 @@
+// Global variables
+@import "src/scss/angular/components-index";
+
+// Local variables
+.header-container{
+    @include  media-breakpoint-down(sm) {
+        position: absolute;
+        top: rem-calc(50);
+        left: 0;
+        z-index: 0;
+    }
+    background-color: $color-black-main;
+    transition: all 300ms ease-in-out;
+    &.mobile-open{
+        background-color: transparent;
+    }
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    .mobile-open & {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.navbar-brand{
+    @include media-breakpoint-down(sm) {
+        display: none;
+    }
+}
+
+.nav-item{
+    margin: 0 1rem;
+}

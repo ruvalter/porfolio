@@ -1,0 +1,10 @@
+@import '../base/colors';
+@import '../base/text';
+
+body{
+    background-color: $color-black-main !important;
+}
+
+p, h1, h2, h3, h4, h5, h6, a, span, button{
+    color: $color-gray-main;
+}
