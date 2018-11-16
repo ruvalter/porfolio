@@ -14,7 +14,14 @@ export class AppComponent implements OnInit{
 
   }
 
-  expandApp() {
+  toggleApp() {
     this.isCollapsed = !this.isCollapsed;
+  }
+
+  expandApp() {
+    this.isCollapsed = true;
+  }
+  collapseApp() {
+    this.isCollapsed = false;
   }
 }

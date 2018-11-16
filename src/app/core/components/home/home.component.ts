@@ -1,3 +1,4 @@
+import { AppSettings } from './../../../shared/app-settings.model';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  firstName: string;
   constructor() { }
 
   ngOnInit() {
+    this.firstName = AppSettings.firstName;
   }
+
+  
 
 }

@@ -1,12 +1,18 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div class="container root-container">
+<div class="container root-container" [class.root-mobile-open]="isCollapsed">
   <div [class.mobile-open]="isCollapsed" class="toggle-container">
-      <button (click)="expandApp()" class="header-toggle" type="button">menu</button>
+      <button (click)="toggleApp()" class="header-toggle" type="button">
+            <img class="header-toggle main-logo" src="assets/main-logo.png" alt="main logo">
+      </button>
   </div>
   <div class="container">
       <app-header [isCollapsed]="isCollapsed"></app-header>
   </div>
-  <div [class.header-mobile-open]="isCollapsed" class="app-container">
+  <div 
+    [class.header-mobile-open]="isCollapsed" 
+    class="app-container container"
+    (swiperight)="expandApp()"
+    (swipeleft)="collapseApp()">
       <router-outlet></router-outlet>
   </div>
 </div>

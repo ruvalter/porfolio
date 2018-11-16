@@ -1,8 +1,16 @@
 // Global variables
-@import "src/scss/angular/components-index";
+@import "~src/scss/angular/components-index";
 
 // Local variables
 .home-container{
     background-color: $color-black-main;
-    height: 100vh;
+    height: 100%;
+}
+
+.no-wrap{
+    white-space: nowrap;
+}
+
+.min-mobile-width{
+    min-width: rem-calc(300);
 }
