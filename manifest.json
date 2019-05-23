@@ -5,7 +5,7 @@
   "background_color": "#1e1e1e",
   "display": "standalone",
   "scope": "/",
-  "start_url": "/",
+  "start_url": "https://ruvalter.github.io/portfolio/",
   "icons": [
     {
       "src": "assets/icons/main-logo-91x110.png",
