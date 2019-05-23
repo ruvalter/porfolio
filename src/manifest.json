@@ -1,7 +1,7 @@
 {
-  "name": "portfolio-spa",
+  "name": "ruvalter",
   "short_name": "ruvalter",
-  "theme_color": "#1976d2",
+  "theme_color": "#1e1e1e",
   "background_color": "#1e1e1e",
   "display": "standalone",
   "scope": "/",
