@@ -1,0 +1,16 @@
+{
+  "name": "ruvalter",
+  "short_name": "ruvalter",
+  "theme_color": "#1e1e1e",
+  "background_color": "#1e1e1e",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "assets/icons/main-logo-91x110.png",
+      "sizes": "91x110",
+      "type": "image/png"
+    }
+  ]
+}
