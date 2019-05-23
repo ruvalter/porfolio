@@ -1,0 +1,61 @@
+{
+  "configVersion": 1,
+  "index": "https://ruvalter.github.io/porfolio/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://ruvalter.github.io/porfolio/favicon.ico",
+        "https://ruvalter.github.io/porfolio/index.html",
+        "https://ruvalter.github.io/porfolio/main.7154b8cf27bf74a29db1.js",
+        "https://ruvalter.github.io/porfolio/polyfills.06ea49badc2828858070.js",
+        "https://ruvalter.github.io/porfolio/runtime.a66f828dca56eeb90e02.js",
+        "https://ruvalter.github.io/porfolio/styles.b1658de34388622fa0c4.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://ruvalter.github.io/porfolio/assets/icons/icon-72x72.png",
+        "https://ruvalter.github.io/porfolio/assets/icons/main-logo-91x110.png",
+        "https://ruvalter.github.io/porfolio/assets/main-logo.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://ruvalter.github.io/porfolio/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://ruvalter.github.io/porfolio/assets/icons/main-logo-91x110.png": "013c092be136578f5b3d88b2550e9c37dac62177",
+    "https://ruvalter.github.io/porfolio/assets/main-logo.png": "013c092be136578f5b3d88b2550e9c37dac62177",
+    "https://ruvalter.github.io/porfolio/favicon.ico": "e148c887f80fe2ecdcf4374f49537781d5cbbe79",
+    "https://ruvalter.github.io/porfolio/index.html": "29bb14daa57d3306487dd7d933d60f5ae093990e",
+    "https://ruvalter.github.io/porfolio/main.7154b8cf27bf74a29db1.js": "6fa62dfab6f976f0f40d3b3a733ceb923f34872c",
+    "https://ruvalter.github.io/porfolio/polyfills.06ea49badc2828858070.js": "07266339961d5341e9185165cabeaf463543adff",
+    "https://ruvalter.github.io/porfolio/runtime.a66f828dca56eeb90e02.js": "47289b4b3ffd85c0383953e51a5271ebfbdfabf0",
+    "https://ruvalter.github.io/porfolio/styles.b1658de34388622fa0c4.css": "5bba29ef06fa08d432e3580591dd11e324daaa53"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
