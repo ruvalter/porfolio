@@ -32,7 +32,8 @@
         "https://ruvalter.github.io/portfolio/assets/icons/icon-72x72.png",
         "https://ruvalter.github.io/portfolio/assets/icons/main-logo-91x110.png",
         "https://ruvalter.github.io/portfolio/assets/logo.png",
-        "https://ruvalter.github.io/portfolio/assets/main-logo.png"
+        "https://ruvalter.github.io/portfolio/assets/main-logo.png",
+        "https://ruvalter.github.io/portfolio/assets/splash-screen.png"
       ],
       "patterns": []
     }
@@ -51,8 +52,9 @@
     "https://ruvalter.github.io/portfolio/assets/icons/main-logo-91x110.png": "013c092be136578f5b3d88b2550e9c37dac62177",
     "https://ruvalter.github.io/portfolio/assets/logo.png": "35e67f8d7b6694d3acae9abd1531a324cae30be6",
     "https://ruvalter.github.io/portfolio/assets/main-logo.png": "013c092be136578f5b3d88b2550e9c37dac62177",
+    "https://ruvalter.github.io/portfolio/assets/splash-screen.png": "ca4d647dcea16906fc639f66130f03288cbac239",
     "https://ruvalter.github.io/portfolio/favicon.ico": "e148c887f80fe2ecdcf4374f49537781d5cbbe79",
-    "https://ruvalter.github.io/portfolio/index.html": "a29df8bb084bb864d8735d2f801bcb6a4af657c0",
+    "https://ruvalter.github.io/portfolio/index.html": "680a67f52a434cd2f7f4bdc086ded1420a3391b2",
     "https://ruvalter.github.io/portfolio/main.5cd42f5c6f954e3a8c13.js": "d3cb27810db35da0e97f057658550cf66d3b4b3d",
     "https://ruvalter.github.io/portfolio/polyfills.06ea49badc2828858070.js": "07266339961d5341e9185165cabeaf463543adff",
     "https://ruvalter.github.io/portfolio/runtime.a66f828dca56eeb90e02.js": "47289b4b3ffd85c0383953e51a5271ebfbdfabf0",
